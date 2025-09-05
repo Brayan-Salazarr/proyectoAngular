@@ -1,0 +1,52 @@
+.componente{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    width: 70%;
+}
+.cuadro1{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 150px;
+    align-items: center;
+    
+}
+.cuadro2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#img1{
+    width: 100px;
+    height: 92.82px;
+    margin: 0 0 0 50px;
+}
+ul{
+    padding: 0;
+    list-style: none;
+    margin: 0 100px 0 0;
+}
+li{
+    display: flex ;
+    color: white;
+    margin-bottom: 5px;
+}
+.cuadro3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid white;
+    background-color: black;
+    height: 50px;
+}
+p{
+    color: white;
+}
+.img2{
+    margin: 0 10px 0 0;
+}
+.img3{
+    margin: 0 15px 0 0;
+}

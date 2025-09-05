@@ -1,0 +1,37 @@
+.cuadro1{
+    width: 600px;
+    height: 200px;
+    overflow: hidden;
+    margin-top: 150px;
+}
+.cuadro2{
+     display: flex;
+      width: calc(200px * 10); 
+      animation: scroll 20s linear infinite;
+}
+
+ @keyframes scroll {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-500px); 
+      }
+    }
+
+.img1{
+    width: 120px;
+}
+.img2{
+    width: 100px;
+}
+.img3{
+    width: 150px;
+}
+.img4{
+    width: 100px;
+}
+.img5{
+    width: 150px;
+}
+

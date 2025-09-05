@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ImagenesMovi } from './imagenes-movi';
+import { ImgmMovi } from './imgm-movi';
 
-describe('ImagenesMovi', () => {
-  let component: ImagenesMovi;
-  let fixture: ComponentFixture<ImagenesMovi>;
+describe('ImgmMovi', () => {
+  let component: ImgmMovi;
+  let fixture: ComponentFixture<ImgmMovi>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [ImagenesMovi]
+      imports: [ImgmMovi]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ImagenesMovi);
+    fixture = TestBed.createComponent(ImgmMovi);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
