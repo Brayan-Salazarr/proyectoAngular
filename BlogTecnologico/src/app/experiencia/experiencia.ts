@@ -1,8 +1,11 @@
 import { Component } from '@angular/core';
+import { Nav } from '../shared/components/nav/nav';
+import { Footer } from '../shared/components/footer/footer';
+import { Perfil } from '../perfil/perfil';
 
 @Component({
   selector: 'app-experiencia',
-  imports: [],
+  imports: [Nav,Footer,Perfil],
   templateUrl: './experiencia.html',
   styleUrl: './experiencia.css'
 })
