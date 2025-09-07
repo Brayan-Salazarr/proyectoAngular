@@ -17,10 +17,10 @@
             "browser": "src/main.ts",
             "tsConfig": "tsconfig.app.json",
             "assets": [
-              {
-                "glob": "**/*",
-                "input": "public"
-              }
+              
+                 "src/Logo.ico",
+                  "src/assets/images"
+              
             ],
             "styles": [
               "src/styles.css"
