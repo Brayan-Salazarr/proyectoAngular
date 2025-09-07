@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, signal } from '@angular/core';
 import { Nav } from '../shared/components/nav/nav';
 import { Header } from '../shared/components/header/header';
 import { Footer } from '../shared/components/footer/footer';
@@ -10,5 +10,5 @@ import { Footer } from '../shared/components/footer/footer';
   styleUrl: './comentarios.css'
 })
 export class Comentarios {
-
+  protected readonly boton = signal("Enviar");
 }
