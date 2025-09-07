@@ -7,7 +7,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-image: url('assets/images/fondoHeader.png');
+    background-image: url('/assets/images/fondoHeader.png');
     background-size: cover;
     background-position: center;
     height: 500px;
