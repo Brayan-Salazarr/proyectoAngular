@@ -9,16 +9,34 @@
                 <p>Gmail</p>
                 <input type="gmail" placeholder="">
             </div>
+
             <div class="campo">
                 <p>Contraseña</p>
-                <input type="password" placeholder="">
+                <div class="botones">
+                     <input [type]="mostrarContra() ? 'password' : 'text' " placeholder="">
+                    @if (mostrarContra()){
+                    <button class="buton1" (click)='toggleElemento()'>◠</button>
+                    } @else{
+                    <button class="buton" (click)='toggleElemento()'>⦿</button>
+                    }
+                </div>
+
             </div>
             <div class="campo">
                 <p>Verificar contraseña</p>
-                <input type="password" placeholder="">
+                <div class="botones">
+                     <input [type]="mostrarContra2() ? 'password' : 'text' " placeholder="">
+                    @if (mostrarContra2()){
+                    <button class="buton1" (click)='toggleElemento2()'>◠</button>
+                    } @else{
+                    <button class="buton" (click)='toggleElemento2()'>⦿</button>
+                    }
+                </div>
             </div>
 
         </div>
+
+        <button class="buton2"><a routerLink="/inicioSesion">Resgitrar</a></button>
     </div>
 
 </div>
