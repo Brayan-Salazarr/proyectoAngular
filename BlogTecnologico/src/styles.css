@@ -5,3 +5,19 @@
 .header{
     background-image: url('assets/images/fondoHeader.png');
 }
+:root{
+    --bg: #ffffff;
+    --text: #111111;
+    --com-bg: #ffffff;
+}
+.oscuro{
+    --bg: #121212;
+    --text: white;
+    --com-bg: #1e1e1e;
+}
+
+.blanco{
+    --bg: white;
+    --text: black;
+    --com-bg: white;
+}
