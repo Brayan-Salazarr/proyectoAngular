@@ -8,12 +8,24 @@
 .cuadro{
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     align-items: center;
     width: 400px;
+    height: 400px;
     margin-top: 100px;
     padding: 20px;
     background-color: rgba(194, 192, 192, 0.264);
     border-radius: 10px;
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    background-color: var(--bg-color);
+    color: var( --text-color);
+    align-items: center;
+    width: 70%;
+    height: 100%;
 }
 
 img{

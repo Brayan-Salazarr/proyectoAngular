@@ -17,6 +17,10 @@
             <button><a class="bot" routerLink="/inicioSesion">Iniciar sesion</a></button>
         </div>
 
+         <button class="boton" (click)="toggleTheme()">
+            {{ themeService.darkMode ? 'Modo Claro' : 'Modo Oscuro' }}
+        </button>
+
 </div>
 
 </div>

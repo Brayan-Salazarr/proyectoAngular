@@ -6,6 +6,7 @@
     width: 600px;
     height: 200px;
     overflow: hidden;
+     background-color: var(--fondo);
     margin: 120px 0 50px 0;
 }
 .cuadro2{

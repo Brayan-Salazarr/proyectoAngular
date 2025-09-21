@@ -1,5 +1,4 @@
-<div [ngClass] = "{'oscuro': modoOscuro(), 'blanco': !modoOscuro()}">
-<button (click)="toggleOscuro()">modo</button>
-
+<div [ngClass]="themeService.darkMode ? 'dark-mode' : 'light-mode'">
+<app-nav></app-nav>
 <router-outlet />
 </div>

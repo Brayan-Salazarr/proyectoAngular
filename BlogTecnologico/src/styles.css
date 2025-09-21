@@ -5,19 +5,16 @@
 .header{
     background-image: url('assets/images/fondoHeader.png');
 }
-:root{
-    --bg: #ffffff;
-    --text: #111111;
-    --com-bg: #ffffff;
-}
-.oscuro{
-    --bg: #121212;
-    --text: white;
-    --com-bg: #1e1e1e;
+.light-mode {
+  --bg-color: white;
+  --text-color: black;
+  --primary-color:  #F9F9F9;
+  --fondo: white;
 }
 
-.blanco{
-    --bg: white;
-    --text: black;
-    --com-bg: white;
+.dark-mode {
+  --bg-color: #121212;
+  --text-color: #ffffff;
+  --primary-color: #121212;
+  --fondo: rgb(87, 87, 87);
 }

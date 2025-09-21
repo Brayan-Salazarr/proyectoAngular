@@ -4,7 +4,7 @@
 }
 section{
     width: 70%;
-    background-color: #F9F9F9;
+    background-color: var(--bg-color);
     height: 750px;
 }
 
@@ -23,6 +23,8 @@ img{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    background-color: var(--bg-color);
+    color: var(--text-color);
     margin-top: 30px;
     height: 200px
 }
